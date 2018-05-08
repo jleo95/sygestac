@@ -1,0 +1,124 @@
+/*** feuille de sytle user*/
+
+
+@charset "utf-8";
+/* CSS Document */
+
+.container-connxion{
+    margin: 30px auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #BFBFBF;
+    width: 460px;
+    box-shadow: 1px 1px 10px;
+    -moz-box-shadow : 1px 1px 10px gray;
+    -webkit-box-shadow: 1px 1px 10px gray;
+    padding: 10px;
+}
+
+.container-connxion{}
+.container-connxion .logo-connexion{
+    /*border: yellow 1px solid;*/
+    margin-bottom: 20px;
+}
+.container-connxion .logo-connexion div{
+    /*border: 1px solid red;*/
+    width: 60%;
+    height: 150px;
+    margin: auto;
+}
+.container-connxion .logo-connexion div img{
+    width: 100%;
+    height: 100%;
+}
+
+.container-connxion .error-connection{
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+#erreur{
+    vertical-align:middle;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:9px;
+    color:#FF0000;
+    text-align:center;
+}
+
+#submenu{
+    font-family:"Arial";
+    font-size:12px;
+    text-align:center;
+    width:20%;
+    border-top-style:solid;
+
+}
+
+
+
+            /*********************** view my profile *******************************/
+
+.myprofile {
+
+}
+
+.myprofile .edit-avatar {
+    background: #eee;
+    padding: 15px;
+    text-align: center;
+    width: 35%;
+}
+.myprofile .edit-avatar .new-avatar {
+    /*border: dotted 1px #cc0000;*/
+    width: 65%;
+    height: 190px;
+    margin: auto;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.myprofile .edit-avatar .new-avatar label {
+    width: 100%;
+    height: 100%;
+}
+
+.myprofile .edit-avatar .new-avatar img {
+    height: 100%;
+    width: 100%;
+}
+
+.myprofile .edit-avatar #newAvatarFile {
+    display: none;
+}
+
+.myprofile .edit-avatar .error-profile {
+    padding: 8px;
+    /*border: 1px solid red;*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.myprofile .edit-avatar .error-avatar p {
+    font-size: 11.5px;
+    color: #cc0000;
+}
+
+.myprofile .edit-avatar .error-infos p {
+    font-size: 11.5px;
+    color: #cc0000;
+}
+
+.myprofile .edit-infos {
+    padding: 15px;
+    background: #eee;
+    width: 50%;
+}
+
+.myprofile .edit-infos {}
+
+.myprofile .edit-infos {}
+
+.myprofile {}
